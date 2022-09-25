@@ -125,10 +125,10 @@ def readRecord(currDate, usern):
 
 # connect to db
 def connect():
-    connection = mysql.connector.connect(host='sql5.freemysqlhosting.net',
-                                         database='sql5521784',
-                                         user='sql5521784',
-                                         password='7psGwqbSGW')
+    connection = mysql.connector.connect(host='XXXXXXXX',
+                                         database='XXXXXXXX',
+                                         user='XXXXXXXX',
+                                         password='XXXXXXXX')
     return connection
 
 
